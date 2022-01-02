@@ -34,6 +34,7 @@ specifiers:
   uglifyjs-webpack-plugin: ^1.1.1
   url-loader: ^0.5.8
   vue: ^2.5.2
+  vue-hot-reload-api: ^2.3.4
   vue-loader: ^13.3.0
   vue-router: ^3.0.1
   vue-style-loader: ^3.0.1
@@ -46,6 +47,7 @@ specifiers:
 dependencies:
   bulma: 0.6.2
   vue: 2.6.14
+  vue-hot-reload-api: 2.3.4
   vue-router: 3.5.3
 
 devDependencies:
@@ -7778,7 +7780,6 @@ packages:
 
   /vue-hot-reload-api/2.3.4:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
-    dev: true
 
   /vue-loader/13.7.3_a47fcb3a8782e14c2edfd0d079e36142:
     resolution: {integrity: sha512-ACCwbfeC6HjY2pnDii+Zer+MZ6sdOtwvLmDXRK/BoD3WNR551V22R6KEagwHoTRJ0ZlIhpCBkptpCU6+Ri/05w==}
