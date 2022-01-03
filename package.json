@@ -11,7 +11,7 @@
     "static": "webpack --config build/webpack.static.conf.js"
   },
   "dependencies": {
-    "bulma": "^0.6.1",
+    "bulma": "^0.9.3",
     "vue": "^2.5.2",
     "vue-hot-reload-api": "^2.3.4",
     "vue-router": "^3.0.1"

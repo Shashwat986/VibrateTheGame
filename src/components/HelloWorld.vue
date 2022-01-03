@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <button class="button is-primary is-fullwidth is-relative"
+      <button class="button is-primary is-fullwidth is-relative has-text-white"
               id="main-button"
               @click="buttonClick"
               @mousedown="touchStart"
@@ -253,10 +253,6 @@ export default {
 #main-button-text {
   font-size: 2rem;
   font-weight: 600;
-}
-
-.is-underlined {
-  text-decoration: underline !important;
 }
 
 .is-relative {
