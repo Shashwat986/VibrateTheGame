@@ -3,11 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Ads from 'vue-google-adsense'
 
 // Require the main Sass manifest file
 require('./assets/sass/main.scss');
 
 Vue.config.productionTip = false
+
+Vue.use(require('vue-script2'))
+Vue.use(Ads.Adsense)
 
 /* eslint-disable no-new */
 new Vue({

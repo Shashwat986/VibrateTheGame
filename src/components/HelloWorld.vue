@@ -246,8 +246,7 @@ export default {
 
 <style lang="scss">
 #main-button {
-  height: calc(100vh - 40px);
-  margin-top: 20px;
+  height: 100vh;
 }
 
 #main-button-text {

@@ -1,12 +1,16 @@
 <template>
-  <div id="app">
+  <div id="app" class="is-relative">
     <router-view/>
+    <ad></ad>
   </div>
 </template>
 
 <script>
+import Ad from './components/Ad.vue';
 export default {
-  name: 'app'
+  components: {
+    ad: Ad
+  }
 }
 </script>
 

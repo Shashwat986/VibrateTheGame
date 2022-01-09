@@ -34,9 +34,11 @@ specifiers:
   uglifyjs-webpack-plugin: ^1.1.1
   url-loader: ^0.5.8
   vue: ^2.5.2
+  vue-google-adsense: ^1.10.1
   vue-hot-reload-api: ^2.3.4
   vue-loader: ^13.3.0
   vue-router: ^3.0.1
+  vue-script2: ^2.1.0
   vue-style-loader: ^3.0.1
   vue-template-compiler: ^2.5.2
   webpack: ^3.6.0
@@ -47,8 +49,10 @@ specifiers:
 dependencies:
   bulma: 0.9.3
   vue: 2.6.14
+  vue-google-adsense: 1.10.1_vue-script2@2.1.0+vue@2.6.14
   vue-hot-reload-api: 2.3.4
   vue-router: 3.5.3
+  vue-script2: 2.1.0
 
 devDependencies:
   autoprefixer: 7.2.6
@@ -7778,6 +7782,16 @@ packages:
     resolution: {integrity: sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==}
     dev: true
 
+  /vue-google-adsense/1.10.1_vue-script2@2.1.0+vue@2.6.14:
+    resolution: {integrity: sha512-F8S6TGK4kyDDvBy7plnWkclz/2bnJNLM2GgPn2K0bzxZi5p5/Nul+NHAkUkXpwdI/eoy+M7ibnkOMhvgd7T9rw==}
+    peerDependencies:
+      vue: ^2.6.12
+      vue-script2: 2.1.0
+    dependencies:
+      vue: 2.6.14
+      vue-script2: 2.1.0
+    dev: false
+
   /vue-hot-reload-api/2.3.4:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
 
@@ -7806,6 +7820,10 @@ packages:
 
   /vue-router/3.5.3:
     resolution: {integrity: sha512-FUlILrW3DGitS2h+Xaw8aRNvGTwtuaxrRkNSHWTizOfLUie7wuYwezeZ50iflRn8YPV5kxmU2LQuu3nM/b3Zsg==}
+    dev: false
+
+  /vue-script2/2.1.0:
+    resolution: {integrity: sha512-EDUOjQBFvhkJXwmWuUR9ijlF7/4JtmvjXSKaHSa/LNTMy9ltjgKgYB68aqlxgq8ORdSxowd5eo24P1syjZJnBA==}
     dev: false
 
   /vue-style-loader/3.1.2:
